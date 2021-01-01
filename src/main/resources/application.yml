@@ -1,0 +1,6 @@
+server:
+  port: ${PORT:7777}
+
+spring:
+  application:
+    name: CORE-SERVICE

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      label: ${GATEWAY_SERVER_LABEL:master}
+      name: ${GATEWAY_SERVER_NAME:GATEWAY-SERVER}
+      uri: ${GATEWAY_SERVER_URI:http://adminz:123123zZ@localhost:9001}
